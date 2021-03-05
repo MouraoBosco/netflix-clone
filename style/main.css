@@ -1,0 +1,96 @@
+:root {
+    --vermelho:#E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+.logo {
+    color:var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+.main-nav a {
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+
+}
+
+.main-nav a:hover {
+    color:#fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+
+}
+
+.principal {
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/the-office.jpg');
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.descricao {
+    margin-top: 30%;
+    margin-left: -15%;
+    margin-right:40%;
+
+}
+
+.titulo-principal {
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    margin: 200px 0 0 100px;
+    overflow-wrap: normal;
+
+}
+
+.main-button {
+    background-color: rgba(0,0,0,.50);
+    padding: 15px 30px;
+    color: white;
+    margin-right: 15px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.main-button:hover {
+    background-color: white;
+    color: black;
+}
+.botoes {
+    margin-top:5%;
+    margin-left:5%;
+    display:flex;
+    margin-bottom:15%;
+
+
+}
+
+.main-button i {
+    margin-right: 7px;
+}
